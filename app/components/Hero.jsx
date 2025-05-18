@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="bg-[#0f0f0f] text-white min-h-screen flex items-center justify-center px-6">
             <div className="text-center max-w-2xl">
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                    Hi, I'm <span className="bg-gradient-to-r from-[#00FFA3] to-[#0077FF] text-transparent bg-clip-text">Yusuf Muhammad</span><br />
+                    Hi, I'm <span className="bg-gradient-to-r from-[#00FFA3] to-[#0077FF] text-transparent bg-clip-text">Yusuf</span><br />
                     I Build Web & Mobile Apps.
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 mb-8">

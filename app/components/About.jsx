@@ -6,7 +6,7 @@ const About = () => {
                 <div>
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
                     <p className="text-gray-400 text-lg mb-6">
-                        I'm Yusuf Muhammad, a Nigerian-based full-stack developer passionate about building modern web and mobile apps that drive business success. I specialize in Laravel, Tailwind CSS, React, and Next.js.
+                        I'm Yusuf, a Nigerian-based full-stack developer passionate about building modern web and mobile apps that drive business success. I specialize in Laravel, Tailwind CSS, React, and Next.js.
                     </p>
                     <p className="text-gray-400 text-lg">
                         Whether it's an eCommerce platform, or AI-powered app, I love turning bold ideas into powerful digital products.
