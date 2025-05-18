@@ -34,7 +34,7 @@ const projects = [
 
 const Work = () => {
     return (
-        <section className="bg-[#0f0f0f] py-24 px-6 text-white">
+        <section id='work' className="bg-[#0f0f0f] py-24 px-6 text-white">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold mb-12">My Work</h2>
                 <div className="grid md:grid-cols-3 gap-8">

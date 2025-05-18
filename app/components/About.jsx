@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
     return (
-        <section className="bg-[#121212] text-white py-20 px-6">
+        <section id="about" className="bg-[#121212] text-white py-20 px-6">
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
@@ -9,7 +9,7 @@ const About = () => {
                         I'm Yusuf Muhammad, a Nigerian-based full-stack developer passionate about building modern web and mobile apps that drive business success. I specialize in Laravel, Tailwind CSS, React, and Next.js.
                     </p>
                     <p className="text-gray-400 text-lg">
-                        Whether it's an eCommerce platform, AgriTech marketplace, or AI-powered app, I love turning bold ideas into powerful digital products.
+                        Whether it's an eCommerce platform, or AI-powered app, I love turning bold ideas into powerful digital products.
                     </p>
                 </div>
 

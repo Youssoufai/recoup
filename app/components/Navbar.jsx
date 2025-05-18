@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -7,9 +8,15 @@ const Navbar = () => {
                 YM<span className="text-[#00FFA3]">.</span>
             </div>
             <ul className="flex gap-8 text-sm font-medium">
-                <li className="cursor-pointer hover:text-[#00FFA3] transition duration-300">About</li>
-                <li className="cursor-pointer hover:text-[#00FFA3] transition duration-300">Work</li>
-                <li className="cursor-pointer hover:text-[#00FFA3] transition duration-300">Contact</li>
+                <a href="#about">
+                    <li className="cursor-pointer hover:text-[#00FFA3] transition duration-300">About</li>
+                </a>
+                <a href="#work">
+                    <li className="cursor-pointer hover:text-[#00FFA3] transition duration-300">Work</li>
+                </a>
+                <a href="#contact">
+                    <li className="cursor-pointer hover:text-[#00FFA3] transition duration-300">Contact</li>
+                </a>
             </ul>
         </nav>
     );
